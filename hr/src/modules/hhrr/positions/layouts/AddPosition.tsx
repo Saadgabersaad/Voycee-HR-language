@@ -1,15 +1,16 @@
-import { DialogProps, FormActions, FormDialog, FormDialogContent } from 'modules/core/components/FormDialog';
+import { DialogProps, FormActions, FormDialog, FormDialogContent } from '@/modules/core/components/FormDialog';
 import { Grid2, TextField, Typography } from '@mui/material';
-import { FormSelect } from 'modules/core/components/FormSelect';
-import { Button } from 'modules/core/components/button';
+import { FormSelect } from '@/modules/core/components/FormSelect';
+import { Button } from '@/modules/core/components/button';
 import IconButton from "@mui/material/IconButton";
 import Grid from "@mui/material/Grid2";
 import React, { useState } from "react";
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-import {useDepartments} from "modules/hhrr/departments/hooks/use-departments";
+import {useDepartments} from "@/modules/hhrr/departments/hooks/use-departments";
 import { CreatePosition } from '../shared/Position';
-import {FormInput} from "modules/core/components/FormInput";
+import {FormInput} from "@/modules/core/components/FormInput";
+import {Department} from "@/modules/hhrr/departments/shared/Department";
 
 type AddPositionModalProps = DialogProps & {
     create(position: CreatePosition): Promise<void>;
@@ -71,7 +72,7 @@ export function AddPosition({
                             name="departmentId"
                             label="Department"
                             placeholder="Select a department first"
-                            options={departments?.data?.map((department) => (
+                            options={departments?.data?.map((department:Department) => (
                                 {label: department.name, value: department.id}
                             )) }
                         />

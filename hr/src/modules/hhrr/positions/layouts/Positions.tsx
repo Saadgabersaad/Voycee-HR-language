@@ -1,10 +1,10 @@
-import { Heading, Page } from 'modules/core/components/page'
-import { HeadingActions } from 'modules/core/components/page/Actions'
+import { Heading, Page } from '@/modules/core/components/page'
+import { HeadingActions } from '@/modules/core/components/page/Actions'
 import React from 'react'
-import { Search } from 'modules/core/components/Search'
+import { Search } from '@/modules/core/components/Search'
 import {AddPosition} from "./AddPosition";
 import {usePositions} from "../hooks/use-positions";
-import {Table} from "modules/hhrr/positions/components/PositionTable";
+import {Table} from "@/modules/hhrr/positions/components/PositionTable";
 
 export default function Positions() {
     const {

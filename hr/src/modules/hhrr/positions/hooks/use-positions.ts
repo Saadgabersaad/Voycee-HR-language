@@ -1,4 +1,4 @@
-import { useTable } from 'modules/core/hooks/use-table'
+import { useTable } from '@/modules/core/hooks/use-table'
 import {CreatePosition} from "../shared/Position";
 import {createPosition, getPositions} from "../services/positions";
 import {POSITIONS_KEY} from "../consts/queryKeys";
