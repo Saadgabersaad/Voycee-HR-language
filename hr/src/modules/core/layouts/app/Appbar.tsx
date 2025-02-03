@@ -1,8 +1,8 @@
 import { Box, AppBar, Toolbar, Button } from '@mui/material'
-import { Flex } from 'modules/core/components/flex'
-import { Logo } from 'modules/core/components/logo'
 import { SearchInput } from './Search'
 import { User } from './User'
+import {Flex} from "@/modules/core/components/flex";
+import {Logo} from "@/modules/core/components/Logo";
 
 export const AppHeader = () => {
     return (

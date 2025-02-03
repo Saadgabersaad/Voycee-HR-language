@@ -1,5 +1,5 @@
 import { Box, List } from '@mui/material'
-import { modules } from 'modules/core/consts/navigation'
+import { modules } from '@/modules/core/consts/navigation'
 import { NavItem } from './NavItem'
 import { NavigationSubItems } from './NavigationSubItems'
 

@@ -8,7 +8,7 @@ import {
 } from '@mui/material'
 import { useState } from 'react'
 import { NavigationItem } from './types'
-import { PRIMARY } from 'modules/core/consts/theme'
+import { PRIMARY } from '@/modules/core/consts/theme'
 import Link from 'next/link'
 
 type NavItemProps = {

@@ -1,4 +1,4 @@
-import { useAttendance } from "modules/dashboard/hooks/use-attendance";
+import { useAttendance } from "@/modules/dashboard/hooks/use-attendance";
 import React from "react";
 
 type ContextStatusEntryType = ReturnType<typeof useAttendance>

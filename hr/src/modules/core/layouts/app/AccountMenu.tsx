@@ -10,8 +10,8 @@ import IconButton from '@mui/material/IconButton'
 import Logout from '@mui/icons-material/Logout'
 import { ExpandMore } from '@mui/icons-material'
 import Link from 'next/link'
-import { PRIMARY } from 'modules/core/consts/theme'
-import UserNavSection from 'modules/dashboard/components/UserNavSection'
+import { PRIMARY } from '../../consts/theme'
+import UserNavSection from '@/modules/dashboard/components/UserNavSelection'
 
 //TODO: CREATE A MENU COMPONENT
 export function AccountMenu(userData:any) {
