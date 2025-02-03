@@ -1,7 +1,7 @@
 'use client'
 
 import { ListItem, ListItemButton, ListItemIcon, ListItemText } from '@mui/material'
-import { PRIMARY } from 'modules/core/consts/theme'
+import { PRIMARY } from '@/modules/core/consts/theme'
 import { NavigationItem } from './types'
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'

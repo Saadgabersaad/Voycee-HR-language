@@ -3,10 +3,10 @@
 import { Coffee, ExitToApp } from "@mui/icons-material";
 import { Box, Typography } from "@mui/material";
 import { ClockIcon } from "@mui/x-date-pickers";
-import { Flex } from "modules/core/components/flex";
+import { Flex } from "@/modules/core/components/flex";
 import Image from "next/image";
 import { EventType } from "../shared/Attendance";
-import { AttendanceContext } from "modules/core/layouts/contexts/attendanceContext";
+import { AttendanceContext } from "@/modules/core/layouts/contexts/attendanceContext";
 import { useContext } from "react";
 
 export default function UserNavSection(userData: any) {

@@ -1,4 +1,4 @@
-import { useTable } from 'modules/core/hooks/use-table'
+import { useTable } from '@/modules/core/hooks/use-table'
 import { CreateDepartment } from '../shared/Department'
 import { getDepartments, createDepartment } from '../services/departments'
 import { DEPARTMENTS_KEY } from '../consts/queryKeys'

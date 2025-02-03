@@ -1,5 +1,5 @@
 import { Avatar, Typography } from '@mui/material'
-import { Flex } from 'modules/core/components/flex'
+import { Flex } from '@/modules/core/components/flex'
 import { AccountMenu } from './AccountMenu'
 
 export const User = () => {

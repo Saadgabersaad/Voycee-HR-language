@@ -1,4 +1,4 @@
-import { Flex } from 'modules/core/components/flex'
+import { Flex } from '@/modules/core/components/flex'
 import { Navigation } from './Navigation'
 
 export const Main = ({

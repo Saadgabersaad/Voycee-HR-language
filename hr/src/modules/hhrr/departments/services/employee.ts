@@ -1,5 +1,5 @@
-import { api, HttpMethod } from 'modules/core/utils/api'
-import { Employee } from 'modules/hhrr/employees/shared/Employee'
+import {api, HttpMethod } from '@/modules/core/utlis/api'
+import { Employee } from '@/modules/hhrr/employees/shared/Employee'
 
 export const addEmployeeToDepartment = (employeeId: string) => {
   return api(HttpMethod.PUT, `employees/${employeeId}/add-employee`)	

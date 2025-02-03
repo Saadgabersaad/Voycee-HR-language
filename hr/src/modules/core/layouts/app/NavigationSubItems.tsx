@@ -3,9 +3,9 @@
 import { List, ListSubheader, styled, Typography } from '@mui/material'
 import { SubNavItem } from './SubNavItem'
 import { usePathname } from 'next/navigation'
-import { PRIMARY } from 'modules/core/consts/theme'
-import { modules } from 'modules/core/consts/navigation'
-import { Flex } from 'modules/core/components/flex'
+import { PRIMARY } from '@/modules/core/consts/theme'
+import { modules } from '@/modules/core/consts/navigation'
+import { Flex } from '@/modules/core/components/flex'
 
 const Navbar = styled(List)<{ component?: React.ElementType }>({
     '& .MuiListItemButton-root': {

@@ -1,7 +1,7 @@
-import { api, HttpMethod } from 'modules/core/utils/api'
 import { CreateDepartment, Department } from '../shared/Department'
-import { Employee } from 'modules/hhrr/employees/shared/Employee'
+import { Employee } from '@/modules/hhrr/employees/shared/Employee'
 import { Position } from '../shared/Position'
+import { api, HttpMethod } from '@/modules/core/utlis/api'
 
 export const getDepartments = (query?: string) => {
   return api<Department[]>(HttpMethod.GET, `/departments${query?.length ? query + '&': '?'}sortByOrder=asc&sortByField=created_at`)

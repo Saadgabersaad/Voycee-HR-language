@@ -1,4 +1,4 @@
-import { api, HttpMethod } from 'modules/core/utils/api';
+import { api, HttpMethod } from '@/modules/core/utlis/api';
 import { Attendance, CreateAttendanceEntrie } from '../shared/Attendance';
 
 export const createUserAttendanceTimeEntrie = (createAttendanceEntrie: CreateAttendanceEntrie) => {
